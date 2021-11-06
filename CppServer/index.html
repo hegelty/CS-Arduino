@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>간식 지킴이</title>
+</head>
+<body>
+    <form method="get" action="http://52.141.61.231:8000/arduino/server/Stat/set">
+        <p>옵션</p>
+        현재 옵션
+        <iframe src="http://52.141.61.231:8000/arduino/server/Stat/show" style="width:100%; height:50px"></iframe>
+        <ol start=0>
+            <li><label><input type="radio" name="statnum" value=0></label>보안 해제</li>
+            <li><label><input type="radio" name="statnum" value=1>이메일만</label></li>
+            <li><label><input type="radio" name="statnum" value=2>이메일과 LED</label></li>
+            <li><label><input type="radio" name="statnum" value=3>이메일과 소리</label></li>
+            <li><label><input type="radio" name="statnum" value=4>셋 다</label></li>
+        </ol>
+        <p><input type="submit" value="확인"> <input type="reset" value="취소"> </p>
+    </form>
+    <hr>
+    <h2>Log</h2>
+    <form method="get" action="http://52.141.61.231:8000/arduino/server/Stat/clear">
+        <p><input type="submit" value="초기화"></p>
+    </form>
+    <iframe src="http://52.141.61.231:8000/arduino/server/Stat/log" style="width:100%; height:300px; border: 2px solid black"></iframe>
+</body>
+</html>

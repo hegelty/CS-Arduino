@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862820976245",
+    "project_id": "snack-protector",
+    "storage_bucket": "snack-protector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862820976245:android:507cd061e2d0f5275e1a3c",
+        "android_client_info": {
+          "package_name": "me.hegelty.snackprotector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862820976245-pqdmb141r8qs30mri8usmk5s5d7gqamu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.hegelty.snackprotector",
+            "certificate_hash": "688662565276933334d1752f30d9a758552431b7"
+          }
+        },
+        {
+          "client_id": "862820976245-0uc72au9vlb6tninbtrkjr3alanc46k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApa3cvp_orfbVaMKn_Otsp_LaikJER1QA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862820976245-0uc72au9vlb6tninbtrkjr3alanc46k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
